@@ -1,0 +1,28 @@
+{
+  "name": "transactions-workshop",
+  "version": "1.0.0",
+  "description": "A workshop project on database transactions using Node.js, PostgreSQL, and Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farah202324/Transactions-workshop.git"
+  },
+  "author": "Farah Halimi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+    
+  },
+  "bugs": {
+    "url": "https://github.com/Farah202324/Transactions-workshop/issues"
+  },
+  "homepage": "https://github.com/Farah202324/Transactions-workshop#readme"
+}
