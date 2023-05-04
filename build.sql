@@ -13,8 +13,9 @@ CREATE TABLE accounts (
 );
 
 INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com');
-INSERT INTO users (name, email) VALUES ('Bob', 'bob@example.com');
+INSERT INTO users (name, email) VALUES ('Aya', 'aya@example.com');
 INSERT INTO accounts (user_id, balance) VALUES (1, 1000.00);
 INSERT INTO accounts (user_id, balance) VALUES (2, 500.00);
 COMMIT;
 
+-- C:/Users/farah/Desktop/Transactions-workshop/build.sql
