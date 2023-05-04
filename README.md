@@ -6,6 +6,7 @@
 
 # ACID Properties
 ##### Transactions are often described using the ACID properties:
+![Example Image](https://miro.medium.com/v2/resize:fit:679/1*lcx5lQeulphhz3QO_RIscg.png)
 
 - Atomicity: All operations within a transaction must be completed successfully, or the transaction is rolled back to its initial state.
 - Consistency: A transaction must leave the database in a consistent state, meaning that all integrity constraints and business rules are satisfied.
@@ -15,7 +16,7 @@ These properties ensure that transactions are reliable and consistent, and that 
 
 # Transaction States
 ##### Transactions can be in one of three states:
-
+![Example Image](https://images.ctfassets.net/po4qc9xpmpuh/3CQA2Vahq9s71Iifwz8SHG/15acd162da3b04a09d5c048aa121ce8d/database-transaction-2.png)
 - Active: The transaction is currently executing its operations.
 - Committed: The transaction has completed successfully and its changes have been permanently saved to the database.
 - Rolled back: The transaction has been aborted due to an error or other issue, and its changes have been undone.
